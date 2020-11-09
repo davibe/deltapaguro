@@ -6,19 +6,9 @@ const markdownReplaceLink = require('markdown-it-replace-link')
 // const anchor = require('markdown-it-anchor')
 
 const diagramPlugin = require('./diagramPlugin')
+import conf from './localConfiguration'
 
-const getLocalConfiguration = (): { replaceLink?: () => void } => {
-  const path = require('path')
-  const process = require('process')
-  try {
-    return require(
-      path.join(process.cwd(), '.deltapaguro.conf.js')
-    )
-  } catch (e) {
-    return {}
-  }
-}
-const { replaceLink } = getLocalConfiguration()
+const { replaceLink } = conf
 
 const mdGen = () => {
   return new MarkdownIt('default', {

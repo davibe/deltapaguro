@@ -5,17 +5,9 @@ const rename = require('gulp-rename')
 
 import { render } from './renderer'
 
-function renderMd(content: String, file: String) {
+function defaultPageWrapper(content: string, filePath: string): string {
   return `
-<script>
-["//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/default.min.css"].forEach((href) => {
-  const l = document.createElement("link")
-  l.type = "text/css"
-  l.rel = "stylesheet"
-  l.href = href
-  document.getElementsByTagName("head")[0].appendChild(l)
-})
-</script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.3.2/styles/default.min.css" />
 <style>
 .hljs {
   background-color: transparent;
@@ -23,8 +15,14 @@ function renderMd(content: String, file: String) {
 </style>
 <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
-${render(content).html.trimLeft()}
+${content}
   `
+}
+
+const pageWrapper = defaultPageWrapper
+
+function renderMd(content: string, file: string) {
+  return pageWrapper(render(content).html.trimLeft(), file)
 }
 
 function md() {
