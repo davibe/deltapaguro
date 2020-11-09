@@ -1,0 +1,14 @@
+// tsconfig.json
+
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "outDir": "out",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "esnext"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+/* orange #F75258 backgroiund #EDE8E4 */
+/* darkblue #212553 background #EDE8E4 */
+
+@font-face {
+  font-family: "Presicav Tight Ul";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/4cb62a811f341c93b77e0b382abdf38d-1536076040.woff") format("woff"),
+    url("https://brand.deltatre.com/upload/screens/179359/5ac0b04e55338b245b3fa333760f5310-1536076040.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Presicav Tight Rg";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/bd8e56e3eae93448969422884a58bc7b-1536076040.woff") format("woff"),
+    url("https://brand.deltatre.com/upload/screens/179359/4bb037153d3b80f728a618198dfccd8d-1536076040.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Presicav Tight Hv";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/706f77de945fbb4afba6b85b6b4fef6f-1536076040.woff") format("woff"),
+    url("https://brand.deltatre.com/upload/screens/179359/4cbcc0e261fc3feb9d6804966d9bc70a-1536076040.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Presicav Tight Lt";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/e66c4735aa8a761c8714139e8f0d0b9e-1536076040.woff") format("woff"),
+    url("https://brand.deltatre.com/upload/screens/179359/7e57762af8fe3e1f41d66eb6f4d7ae80-1536076040.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Presicav Tight Rg";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/22b6e059226f211d18e84e58bc0876e9-1536076040.woff") format("woff"),
+    url("https://brand.deltatre.com/upload/screens/179359/bd6a01d3541d24ff75d67ec389d83150-1536076040.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Presicav Tight Xl";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/14207de797cf80cd787ba604e9cd79f0-1536076040.woff") format("woff"),
+    url("https://brand.deltatre.com/upload/screens/179359/3861579c585d7f525fdba1cb948b51ac-1536076040.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gibson Regular";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/81a9c83f2523449e5d7bcbeb62227e7f-1536076040.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gibson Light";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/06cc42c4015403cb6cb4e45e9a193d2a-1536076040.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gibson LighItalic";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/2ec194286aefb387450d8e431c9f613b-1536076040.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gibson Bold";
+  src:
+    url("https://brand.deltatre.com/upload/screens/179359/2b3dc29c58cdd0192d5675dcd7baa6ac-1536076040.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
