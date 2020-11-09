@@ -1,7 +1,8 @@
 const path = require('path')
 
 interface LocalConfiguration {
-  replaceLink?: () => void
+  replaceLink?: () => void,
+  pageWrapper?: (content: string, filePath: string) => string
 }
 
 const getLocalConfiguration = (): LocalConfiguration => {

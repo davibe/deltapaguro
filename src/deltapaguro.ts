@@ -4,6 +4,7 @@ const transform = require('gulp-transform')
 const rename = require('gulp-rename')
 
 import { render } from './renderer'
+import conf from './localConfiguration'
 
 function defaultPageWrapper(content: string, filePath: string): string {
   return `
@@ -19,7 +20,7 @@ ${content}
   `
 }
 
-const pageWrapper = defaultPageWrapper
+const pageWrapper = conf.pageWrapper || defaultPageWrapper
 
 function renderMd(content: string, file: string) {
   return pageWrapper(render(content).html.trimLeft(), file)
